@@ -1,0 +1,20 @@
+// writing next to home so that can be used in all carousel
+
+.carouselSection {
+    position: relative;
+    margin-bottom: 70px;
+
+    &>.contentWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .carouselTitle {
+        margin-left: 10px;
+        font-size: 19px;
+        color: white;
+        font-weight: normal;
+    }
+}
